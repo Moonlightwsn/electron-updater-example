@@ -67,6 +67,7 @@ function createDefaultWindow() {
   win.loadURL(`file://${__dirname}/version.html#v${app.getVersion()}`);
   return win;
 }
+autoUpdater.setFeedURL('http://127.0.0.1:3000/download/')
 autoUpdater.on('checking-for-update', () => {
   sendStatusToWindow('Checking for update...');
 })
