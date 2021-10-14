@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -24,10 +24,12 @@
         "dmg"
       ]
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "Moonlightwsn",
-      "repo": "electron-updater-example"
-    }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Moonlightwsn",
+        "repo": "electron-updater-example"
+      }
+    ]
   }
 }
